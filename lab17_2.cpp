@@ -2,7 +2,7 @@
 using namespace std;
 
 void myString(char *&p,int a){
-	p = new char[a+1];    
+	p = new char[a];    
 	for(int i = 0; i < a;i++) p[i] = 'A'+i;
 	p[a]=0;
 }
